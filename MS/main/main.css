@@ -1,0 +1,68 @@
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,300&family=Pacifico&family=Rubik+Doodle+Shadow&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik Doodle Shadow", "sanserif";
+}
+body{
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style-type: none;
+}
+nav{
+    background-color: rgb(250, 209, 216);
+    text-align: center;
+    border-radius: 24px;
+    border-bottom: pink solid 5px; 
+}
+.navli{
+    display: inline-block;
+    padding: 10px;
+}
+.nava:hover{
+    font-size: larger;
+    background-color: rgb(249, 200, 209);
+    border-radius: 30px;
+}
+.cat{
+    
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 24px;
+}
+.container{
+    margin: auto;
+    padding: auto;
+    width: 75%;
+    text-align: center;
+}
+#catt{
+    margin-top: 30px;
+    
+}
+.space{
+    height: 120px;
+    width: 100%;
+}
+h1{
+    color: black;
+    border-bottom: pink solid 3px;
+    border-radius: 24px;
+}
+#catt:hover{
+    
+}
+.loading{
+    
+    border-radius: 24px;
+    background-color: pink;
+    
+}
+

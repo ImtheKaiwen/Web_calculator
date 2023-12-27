@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,300&family=Pacifico&family=Rubik+Doodle+Shadow&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik Doodle Shadow", "sanserif";
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style-type: none;
+}
+nav{
+    background-color: rgb(250, 209, 216);
+    text-align: center;
+    border-radius: 24px;
+    border-bottom: pink solid 5px; 
+}
+.navli{
+    display: inline-block;
+    padding: 10px;
+}
+.nava:hover{
+    font-size: larger;
+    background-color: rgb(249, 200, 209);
+    border-radius: 30px;
+}
+.container{
+ 
+    position: sticky;
+    width: 75%;
+    margin :auto;
+    
+    height: 800px;
+}
+.box{
+    border-radius: 28px;
+    width: 60%;
+    height: 600px;
+    
+    margin :auto;
+    padding-top: 80px;
+    
+}
+.information{
+    text-align: center;
+    border-radius: 24px;
+    justify-content: center;
+    width: 300px;
+    height: 50ppx;
+    background-color: rgb(250, 202, 210);
+    margin: auto;
+}
+.score{
+    text-align: center;
+    padding-top: 40px;
+    border-radius: 24px;
+    width: 60%px;
+    height: 100px;
+    background-color: rgb(246, 220, 224);
+    margin: auto;
+}
+label{
+    font-size: xx-large;
+}
+#scorelabel{
+  
+}
+.scorelabeldiv{
+    text-align: center;
+    width: 40%;
+    height: 50px;
+    background-color:white;
+    margin:auto;
+    border-radius: 24px;
+}

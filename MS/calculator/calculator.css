@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,300&family=Pacifico&family=Rubik+Doodle+Shadow&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik Doodle Shadow", "sanserif";
+    user-select: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style-type: none;
+}
+nav{
+    background-color: rgb(250, 209, 216);
+    text-align: center;
+    border-radius: 24px;
+    border-bottom: pink solid 5px; 
+}
+.navli{
+    display: inline-block;
+    padding: 10px;
+}
+.nava:hover{
+    font-size: larger;
+    background-color: rgb(249, 200, 209);
+    border-radius: 30px;
+}
+.container{
+    width: 75%;
+    margin: auto;
+    padding: auto;
+}
+.space{
+    width: 100%;
+    height: 25px;
+}
+.calculator{
+    border-radius: 24px;
+    justify-content: center;
+    width: 434px;
+    height: 500px;
+    background-color:rgb(255, 212, 219);
+    margin: auto;
+}
+.screen{
+    padding-top: 25px;
+    border-radius: 24px;
+    height: 30%;
+    width: 100%;
+    background-color: rgb(249, 191, 191);
+    border-bottom: rgb(239, 139, 155) solid 6px;
+    
+}
+.buttons{
+    border-radius: 24px;
+    height: 70%;
+    width: 100%;
+    background-color: rgb(255, 212, 219);
+}
+.numbers{
+    text-align: center;
+    border-radius: 24px;
+    width: 60%;
+    height: 100%;
+    background-color: lightblue;
+    display: inline-block;
+    border-bottom: rgb(139, 176, 189) solid 4px;
+}
+.symbols{
+    justify-content: center;
+    border-radius: 24px;
+    width: 40%;
+    height: 100%;
+    background-color: rgb(255, 212, 219);
+    border-bottom: pink solid 4px;
+    float: right;
+}
+.button{
+    justify-content: center;
+    border-radius: 24px;
+    margin-left: 2.7px;
+    margin-top: 15px;
+    display: inline-block;
+   
+    padding: 25px;
+    width: 70px;
+    height: 70px;
+    background-color:white;
+}
+#long{
+    height: 125px;
+}
+.screen1{
+    border-radius: 24px;
+    width: 400px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 15px;
+}
+.buttons a{
+    color:black;
+    width: 100%;
+    height: 100%;
+}
+#screenlabel{
+    display: inline-block;
+    float: right;
+    margin-top: 35px;
+    margin-right: 40px;
+    font-size: larger;
+}
+.symbols .button{
+    margin-left: 10px;
+}
+.symbols #long{
+    margin-top: 35px;
+}
+button:hover{
+    background-color: rgb(251, 251, 232);
+}
+button{
+    border: none;
+    border-bottom: lightgray solid 5px;
+}
+.kitty{
+    display: none;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    margin-left: -15px;
+    margin-top: -60px;
+}
+.button:hover{
+    .kitty{
+        display: inline-block;
+    }
+}
+.kittyscreen{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    margin-left: 340px;
+    margin-top: 50px;
+}
